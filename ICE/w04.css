@@ -18,8 +18,9 @@ ol {
     margin-left:  30%;
 }
 img {
-    margin-right: 45%;
-    margin-left:  45%;
+    text-align: center;
+    display: block;
+    margin:0 auto;
 }
 div {
     color: white;
@@ -27,7 +28,7 @@ div {
     margin-left:  30%;
     font-size: 2em;
 }
-p footer {
+footer p {
     color: black;
     text-align: center;
 }
