@@ -1,11 +1,22 @@
+
 .logo {
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 body {
     background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 #content {
     max-width: 1600px;
@@ -18,6 +29,7 @@ nav a {
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #FFFFFF;
@@ -25,6 +37,8 @@ nav a:hover {
 }
 .home-title {
     color: black;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: Black;
@@ -38,10 +52,20 @@ h4 {
 .button-box {
     text-align: center;
 }
+.card-img {
+    border: 10px solid #FCE172;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 .book {
     background-color: #134266;
     color: #78C5D7;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #FFFFFF;
@@ -50,10 +74,17 @@ h4 {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 .join {
     background-color: #134266;
     color: #FCE172;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     background-color: #134266;
@@ -65,16 +96,25 @@ main section {
 }
 .msg {
     background-color: #134266;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #78C5D7;
 }
 .msg p {
     color: #78C5D7;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #134266;
     color: #78C5D7;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer p {
     font-size: 1.2em;
