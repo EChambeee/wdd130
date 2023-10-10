@@ -1,0 +1,14 @@
+.circles {
+    width: 100%
+}
+div {
+    width: 100%;
+    background-color: grey;
+}
+.desk, .graphic, .person {
+    border-radius: 50%;
+    width: 20%;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
