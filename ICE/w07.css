@@ -1,7 +1,7 @@
 body {
     display: grid;
-    grid-template-columns: .5fr .5fr;
-    grid-template-rows: .5fr .5fr;
+    grid-template-columns: 750px 750px;
+    grid-template-rows: 450px 450px;
 }
 h1 {
     grid-column: 1/3;
