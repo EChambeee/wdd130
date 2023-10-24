@@ -85,9 +85,9 @@ h4 {
 .button-box {
     text-align: center;
 }
-#home-grid {
+.home-grid {
     display: grid;
-    grid-template-columns: (10, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .card-img {
     border: 10px solid #FCE172;
