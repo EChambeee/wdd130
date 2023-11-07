@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    grid-template-columns: 100fr 100fr 100fr;
+    grid-template-rows: 100fr 100fr 100fr 100fr 100fr 100fr;
+}
+header {
+    grid-column: 1/4;
+    grid-row: 1/3
+}
