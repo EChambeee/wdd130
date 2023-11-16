@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300&display=swap');
+:root {
+    --primary-color: #E51837 ;
+    --secondary-color: #010101 ;
+    --accent1-color: #FFD308 ;
+    --accent2-color: #FFFFFF;
+  
+    --heading-font: "Bebas Neue", Monospace;
+    --paragraph-font: Outfit, Helvetica, sans-serif;
+  
+    --headline-color-on-white: #E51837;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #010101; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #E51837  ;
+    --nav-link-color: #E51837;
+    --nav-background-color: #FFD308;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #E51837;
+  }
+
+
+
+.logo {
+    width: 80px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+}
+
+#logo_link {
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto; 
+    grid-template-rows: auto auto; 
+    place-items: center; 
+    background-color: #E51837;
+    margin-bottom:200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px; 
+}
+
+nav a {
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px; 
+    font-family: var(--paragraph-font);
+}
+
+nav a:hover {
+    background-color: #FFFFFF;
+    color: #E51837;
+}
+
+
+.content {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    background-color: #FFD308;
+}
+h1 {
+    color:#E51837;
+}
+p {
+    color: #FFFFFF;
+}
+.div1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+.chiefs {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #E51837;
+    color: #FFD308;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer p {
+    font-size: 1.2em;
+    font-family: var(--paragraph-font);
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #FFD308;
+}
